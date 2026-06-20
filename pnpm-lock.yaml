@@ -121,7 +121,7 @@ importers:
         version: 1.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       lucide:
         specifier: latest
-        version: 1.18.0
+        version: 1.21.0
       lucide-react:
         specifier: ^0.454.0
         version: 0.454.0(react@18.3.1)
@@ -169,8 +169,8 @@ importers:
         specifier: ^4.1.9
         version: 4.1.13
       '@types/node':
-        specifier: ^22
-        version: 22.18.1
+        specifier: ^22.20.0
+        version: 22.20.0
       '@types/react':
         specifier: ^18
         version: 18.3.24
@@ -178,7 +178,7 @@ importers:
         specifier: ^18
         version: 18.3.7(@types/react@18.3.24)
       postcss:
-        specifier: ^8.5.10
+        specifier: ^8.5
         version: 8.5.10
       tailwindcss:
         specifier: ^4.1.9
@@ -1085,8 +1085,8 @@ packages:
   '@types/d3-timer@3.0.2':
     resolution: {integrity: sha512-Ps3T8E8dZDam6fUyNiMkekK3XUsaUEik+idO9/YjPtfj2qruF8tFBXS7XhtE4iIXBLxhmLjP3SXpLhVf21I9Lw==}
 
-  '@types/node@22.18.1':
-    resolution: {integrity: sha512-rzSDyhn4cYznVG+PCzGe1lwuMYJrcBS1fc3JqSa2PvtABwWo+dZ1ij5OVok3tqfpEBCBoaR4d7upFJk73HRJDw==}
+  '@types/node@22.20.0':
+    resolution: {integrity: sha512-QWlFW2wf3nTjC13/DqRnBpR4ZO36VJH/JVBkA/vcnmbTBNQIlnObqyqZE1tUR7+Ni23Lda8R1BxMfbXRpCUx5g==}
 
   '@types/prop-types@15.7.15':
     resolution: {integrity: sha512-F6bEyamV9jKGAFBEmlQnesRPGOQqS2+Uwi0Em15xenOxHaf2hv6L8YCVn3rPdPJOiJfPiCnLIRyvwVaqMY3MIw==}
@@ -1362,8 +1362,8 @@ packages:
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
 
-  lucide@1.18.0:
-    resolution: {integrity: sha512-xzUa3LbA/Uvn3DCs7B7YfDcOZeqV8aZ4r4OFyCgJSfZGUdMglJiK3PJSbd26SXLLQvGGsYX9PdETCRXvfK4rnA==}
+  lucide@1.21.0:
+    resolution: {integrity: sha512-m8g+tPjt1am9YBygKb36o2JOu5xOg7usbz0EORvPjn6MacIVy7desH1SNnV1ziMFHRGMGCcF5r1Jj80TxF2UTw==}
 
   magic-string@0.30.19:
     resolution: {integrity: sha512-2N21sPY9Ws53PZvsEpVtNuSW+ScYbQdp4b9qUaL+9QkHUrGFKo56Lg9Emg5s9V/qrtNBmiR01sYhUOwu3H+VOw==}
@@ -2518,7 +2518,7 @@ snapshots:
 
   '@types/d3-timer@3.0.2': {}
 
-  '@types/node@22.18.1':
+  '@types/node@22.20.0':
     dependencies:
       undici-types: 6.21.0
 
@@ -2745,7 +2745,7 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  lucide@1.18.0: {}
+  lucide@1.21.0: {}
 
   magic-string@0.30.19:
     dependencies:
