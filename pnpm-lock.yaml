@@ -121,7 +121,7 @@ importers:
         version: 1.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       lucide:
         specifier: latest
-        version: 1.18.0
+        version: 1.39.0
       lucide-react:
         specifier: ^0.454.0
         version: 0.454.0(react@18.3.1)
@@ -162,8 +162,8 @@ importers:
         specifier: ^0.9.9
         version: 0.9.9(@types/react-dom@18.3.7(@types/react@18.3.24))(@types/react@18.3.24)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       zod:
-        specifier: 3.25.67
-        version: 3.25.67
+        specifier: 3.25.76
+        version: 3.25.76
     devDependencies:
       '@tailwindcss/postcss':
         specifier: ^4.1.9
@@ -178,7 +178,7 @@ importers:
         specifier: ^18
         version: 18.3.7(@types/react@18.3.24)
       postcss:
-        specifier: ^8.5.10
+        specifier: ^8.5
         version: 8.5.10
       tailwindcss:
         specifier: ^4.1.9
@@ -1362,8 +1362,8 @@ packages:
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
 
-  lucide@1.18.0:
-    resolution: {integrity: sha512-xzUa3LbA/Uvn3DCs7B7YfDcOZeqV8aZ4r4OFyCgJSfZGUdMglJiK3PJSbd26SXLLQvGGsYX9PdETCRXvfK4rnA==}
+  lucide@1.39.0:
+    resolution: {integrity: sha512-5tdtUFVqkqXjQRlt8QyPeF9GjkMxiKDLWYg20vCmWYDgDY/Atnmx9foe9zF81NmbJNa+oheEfF8gN+CoCAljGg==}
 
   magic-string@0.30.19:
     resolution: {integrity: sha512-2N21sPY9Ws53PZvsEpVtNuSW+ScYbQdp4b9qUaL+9QkHUrGFKo56Lg9Emg5s9V/qrtNBmiR01sYhUOwu3H+VOw==}
@@ -1639,8 +1639,8 @@ packages:
     resolution: {integrity: sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==}
     engines: {node: '>=18'}
 
-  zod@3.25.67:
-    resolution: {integrity: sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw==}
+  zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
 snapshots:
 
@@ -2745,7 +2745,7 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  lucide@1.18.0: {}
+  lucide@1.39.0: {}
 
   magic-string@0.30.19:
     dependencies:
@@ -3012,4 +3012,4 @@ snapshots:
 
   yallist@5.0.0: {}
 
-  zod@3.25.67: {}
+  zod@3.25.76: {}
