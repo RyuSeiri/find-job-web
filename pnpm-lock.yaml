@@ -94,7 +94,7 @@ importers:
         version: 1.1.6(@types/react-dom@18.3.7(@types/react@18.3.24))(@types/react@18.3.24)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vercel/analytics':
         specifier: 1.3.1
-        version: 1.3.1(next@15.5.24(@types/node@22.18.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+        version: 1.3.1(next@15.5.24(@types/node@22.20.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.21(postcss@8.5.23)
@@ -115,19 +115,19 @@ importers:
         version: 8.5.1(react@18.3.1)
       geist:
         specifier: ^1.3.1
-        version: 1.5.1(next@15.5.24(@types/node@22.18.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+        version: 1.5.1(next@15.5.24(@types/node@22.20.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       input-otp:
         specifier: 1.4.2
         version: 1.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       lucide:
         specifier: latest
-        version: 1.48.0
+        version: 1.52.0
       lucide-react:
         specifier: ^0.454.0
         version: 0.454.0(react@18.3.1)
       next:
         specifier: 15.5.24
-        version: 15.5.24(@types/node@22.18.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 15.5.24(@types/node@22.20.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-themes:
         specifier: ^0.4.6
         version: 0.4.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -169,8 +169,8 @@ importers:
         specifier: ^4.1.9
         version: 4.1.13
       '@types/node':
-        specifier: ^22
-        version: 22.18.1
+        specifier: ^22.20.5
+        version: 22.20.5
       '@types/react':
         specifier: ^18
         version: 18.3.24
@@ -1241,8 +1241,8 @@ packages:
   '@types/d3-timer@3.0.2':
     resolution: {integrity: sha512-Ps3T8E8dZDam6fUyNiMkekK3XUsaUEik+idO9/YjPtfj2qruF8tFBXS7XhtE4iIXBLxhmLjP3SXpLhVf21I9Lw==}
 
-  '@types/node@22.18.1':
-    resolution: {integrity: sha512-rzSDyhn4cYznVG+PCzGe1lwuMYJrcBS1fc3JqSa2PvtABwWo+dZ1ij5OVok3tqfpEBCBoaR4d7upFJk73HRJDw==}
+  '@types/node@22.20.5':
+    resolution: {integrity: sha512-U2+DNr+wSjpsTS/wZGYHq7GcwfuSmKiKvoPvK22zwTlRhU91yOniN4qRR5KhIjvif7ysw/dz/hKmfDH0Ris4aA==}
 
   '@types/prop-types@15.7.15':
     resolution: {integrity: sha512-F6bEyamV9jKGAFBEmlQnesRPGOQqS2+Uwi0Em15xenOxHaf2hv6L8YCVn3rPdPJOiJfPiCnLIRyvwVaqMY3MIw==}
@@ -1518,8 +1518,8 @@ packages:
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
 
-  lucide@1.48.0:
-    resolution: {integrity: sha512-8FglIlGkcIItJjJfLUiqAufUCdbtnTOsdG02/fxXd4oIt+NrcrEVH8t0ZcKAfawxHckorO5qJ9XDfnJbdf0TOg==}
+  lucide@1.52.0:
+    resolution: {integrity: sha512-XlP0U+m3seobjTPfT0Ybg9YqJeTwSxx1I6R2Ty7vwpA/4HtibMbV28p9tW7AnIwb77YkTboK9x/OPBEqGAzCFg==}
 
   magic-string@0.30.19:
     resolution: {integrity: sha512-2N21sPY9Ws53PZvsEpVtNuSW+ScYbQdp4b9qUaL+9QkHUrGFKo56Lg9Emg5s9V/qrtNBmiR01sYhUOwu3H+VOw==}
@@ -2792,7 +2792,7 @@ snapshots:
 
   '@types/d3-timer@3.0.2': {}
 
-  '@types/node@22.18.1':
+  '@types/node@22.20.5':
     dependencies:
       undici-types: 6.21.0
 
@@ -2807,11 +2807,11 @@ snapshots:
       '@types/prop-types': 15.7.15
       csstype: 3.1.3
 
-  '@vercel/analytics@1.3.1(next@15.5.24(@types/node@22.18.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
+  '@vercel/analytics@1.3.1(next@15.5.24(@types/node@22.20.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
     dependencies:
       server-only: 0.0.1
     optionalDependencies:
-      next: 15.5.24(@types/node@22.18.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next: 15.5.24(@types/node@22.20.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
 
   aria-hidden@1.2.6:
@@ -2944,9 +2944,9 @@ snapshots:
 
   fraction.js@4.3.7: {}
 
-  geist@1.5.1(next@15.5.24(@types/node@22.18.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)):
+  geist@1.5.1(next@15.5.24(@types/node@22.20.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)):
     dependencies:
-      next: 15.5.24(@types/node@22.18.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next: 15.5.24(@types/node@22.20.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
   get-nonce@1.0.1: {}
 
@@ -3018,7 +3018,7 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  lucide@1.48.0: {}
+  lucide@1.52.0: {}
 
   magic-string@0.30.19:
     dependencies:
@@ -3039,7 +3039,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  next@15.5.24(@types/node@22.18.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  next@15.5.24(@types/node@22.20.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@next/env': 15.5.24
       '@swc/helpers': 0.5.15
@@ -3057,7 +3057,7 @@ snapshots:
       '@next/swc-linux-x64-musl': 15.5.24
       '@next/swc-win32-arm64-msvc': 15.5.24
       '@next/swc-win32-x64-msvc': 15.5.24
-      sharp: 0.35.4(@types/node@22.18.1)
+      sharp: 0.35.4(@types/node@22.20.5)
     transitivePeerDependencies:
       - '@babel/core'
       - '@types/node'
@@ -3191,7 +3191,7 @@ snapshots:
 
   server-only@0.0.1: {}
 
-  sharp@0.35.4(@types/node@22.18.1):
+  sharp@0.35.4(@types/node@22.20.5):
     dependencies:
       '@img/colour': 1.1.0
       detect-libc: 2.1.2
@@ -3222,7 +3222,7 @@ snapshots:
       '@img/sharp-win32-arm64': 0.35.4
       '@img/sharp-win32-ia32': 0.35.4
       '@img/sharp-win32-x64': 0.35.4
-      '@types/node': 22.18.1
+      '@types/node': 22.20.5
     optional: true
 
   sonner@1.7.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
